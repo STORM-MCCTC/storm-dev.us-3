@@ -1,0 +1,20 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* link styling*/
+a{
+    color: white; 
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:active{
+    color: white;
+}

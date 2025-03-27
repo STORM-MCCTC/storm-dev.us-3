@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+.box{
+    text-align: center;
+    color: white;
+    border: 3px solid black;
+}
+.box1{
+    background-color: #160020;
+}
+.box2{
+    background-color: #65008d; 
+}
+.box3{ 
+    background-color: #160020;
+}
