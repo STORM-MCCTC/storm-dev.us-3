@@ -1,3 +1,48 @@
 html{
     text-align: center;
 }
+.blog_post {
+    background-color: #4a006b; /* Darker purple for contrast */
+    border: 3px solid black;
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px black;
+}
+
+/* Date and Time */
+.date_time {
+    background-color: #160020;
+    color: #d1a3ff;
+    padding: 5px;
+    font-size: 0.8rem;
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main_text_container {
+    color: white;
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Signature */
+.signed {
+    background-color: #160020;
+    color: #d1a3ff;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: right;
+    border-top: 2px solid black;
+    font-style: italic;
+}
+
+/* Extra Styling */
+.box2 .blog_post {
+    animation: fadeIn 0.5s ease-in-out;
+}

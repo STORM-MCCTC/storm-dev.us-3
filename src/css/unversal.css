@@ -1,7 +1,6 @@
-*{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body{
+    background-color: black;
 }
-
 /* link styling*/
 a{
     color: white; 
@@ -17,4 +16,17 @@ a:visited{
 
 a:active{
     color: white;
+}
+
+.pixelated{
+    image-rendering: pixelated;
+}
+
+body *:not(.parent, .box) {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
 }
