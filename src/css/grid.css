@@ -14,14 +14,15 @@
 .box{
     text-align: center;
     color: white;
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
 }
 .box1{
-    background-color: #160020;
+    background-color: #581981;
 }
 .box2{
-    background-color: #65008d; 
+    background: rgb(96,0,255);
+    background: linear-gradient(0deg, rgba(96,0,255,1) 0%, rgba(169,0,255,1) 50%, rgba(232,149,255,1) 100%); 
 }
 .box3{ 
-    background-color: #160020;
+    background-color: #581981;
 }
